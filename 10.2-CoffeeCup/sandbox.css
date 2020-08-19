@@ -1,0 +1,51 @@
+.coffee{
+  position: relative;
+}
+
+.handle{
+  position: absolute;
+  top: 50%;
+  width: 127px;
+  height: 50px;
+  border-radius: 50px;
+  background-image: linear-gradient(180deg,
+                                    rgb(200,200,200) 5%,
+                                    rgb(255,255,255) 50%,
+                                    rgb(200,200,200) 95%
+                                    );
+  box-shadow: 5px 0px 1px 0px rgba(200, 200, 200, 0.8);
+  right: 860px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.coffee-cup{
+  position: relative;
+  width: 462px;
+  height: 462px;
+  z-index: 3;
+  border-radius: 50%;
+  background-image: radial-gradient(50% 50%,
+                                    rgb(14,7,0) 65%,
+                                    rgb(185,144,18) 75%,
+                                    rgb(129, 129, 129) 75%,
+                                    rgb(255, 255, 255) 95%,
+                                    rgb(161, 161, 161) 100%
+                                    );
+  box-shadow: 10px 35px 30px 7px rgba(49, 49, 49, 0.1);
+}
+
+.brew{
+  position: absolute;
+  width: 316px;
+  height: 316px;
+  border-radius: 50%;
+  background-image: linear-gradient(140deg,
+                                    rgb(0,0,0) 0%,
+                                    rgb(52,26,0) 100%);
+  box-shadow: 5px 5px 0px 0px rgba(252, 232, 185, 0.55);
+  z-index: 4;
+  top: 50%;
+  left: 70px;
+  transform: translateY(-50%);
+}
